@@ -1,0 +1,10 @@
+create table Medico (
+    crm varchar(10) primary key,
+    telefone varchar(15) not null,
+    cep varchar(10) not null,
+    numero int not null,
+    nome varchar(60) not null,
+    rg varchar(15) not null,
+    areaAtuacao varchar(30) not null,
+    complemento varchar(20) not null
+)
